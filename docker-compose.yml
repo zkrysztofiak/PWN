@@ -1,0 +1,29 @@
+version: '3.1'
+
+services:
+  api:
+    build: 
+      network: host
+      context: ./
+      dockerfile: ./docker/node/Dockerfile
+    command: bash -c "yarn && yarn run watch"
+    volumes:
+      - ./:/code
+    expose:
+      - "${PORT}"
+    ports:
+      - '3500:${PORT}'
+    networks:
+      - api
+      - backend
+    depends_on:
+      - redis
+
+  redis:
+    image: redis
+    networks:
+      - backend
+networks:
+  backend:
+  api:
+    name: libra-offers-api
