@@ -1,0 +1,320 @@
+    1  pwd
+    2  ls /mnt
+    3  cd c
+    4  cd /c
+    5  cd c/
+    6  pwd
+    7  cd /
+    8  pwd
+    9  cd mnt/
+   10  ls
+   11  cd c
+   12  ls
+   13  ls -al
+   14  cd Users
+   15  ls
+   16  cd zdzislaw.krysztofiak/
+   17  ls
+   18  ls p
+   19  ls p*
+   20  ls d
+   21  ls
+   22  cd Desktop/
+   23  ls
+   24  touch test.txt
+   25  del test.txt 
+   26  rm test.txt 
+   27  cd ~
+   28  sudo apt update
+   29  sudo apt install ca-certificates curl gnupg lsb-release
+   30  sudo mkdir -p /etc/apt/keyrings
+   31  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+   32  echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   33  sudo apt update
+   34  sudo systemctl enable docker.service
+   35  sudo systemctl enable containerd.service
+   36  sudo docker run hello-world
+   37  sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+   38  sudo systemctl enable docker.service
+   39  sudo systemctl enable containerd.service
+   40  sudo systemctl disable docker.service
+   41  sudo systemctl disable containerd.service
+   42  sudo docker run hello-world
+   43  docker runb
+   44  docker run
+   45  sudo docker run hello-world
+   46  ls
+   47  ls -sl
+   48  ls -al
+   49  pwd
+   50  sudo docker run hello-world
+   51  ps
+   52  sudo apt install gnome-terminal
+   53  sudo apt-get update
+   54  sudo apt-get install ./docker-desktop-<version>-<arch>.deb
+   55  sudo apt-get install ./docker-desktop-4.14.0-amd64.deb
+   56  docker --version
+   57  sudo systemctl status docker
+   58  sudo systemctl start docker
+   59  docker --version
+   60  sudo service docker start
+   61  docker --version
+   62  docker
+   63  sudo service docker startdocker run hello-world
+   64  docker run hello-world
+   65  sudo service docker startdocker run hello-world
+   66  docker --version
+   67  sudo service docker start
+   68  docker run hello-world
+   69  sudo docker run hello-world
+   70  docker run --help
+   71  sudo docker run hello-world
+   72  sudo systemctl status docker
+   73  sudo systemctl start docker
+   74  sudo systemctl enable docker
+   75  sudo systemctl status docker
+   76  sudo service docker start
+   77  docker --version
+   78  docker run hello-world
+   79  sudo docker run hello-world
+   80  sudo groupadd docker
+   81  whoami
+   82  sudo usermod -aG docker zkrysztofiak
+   83  sudo docker run hello-world
+   84  whoami
+   85  docker --version
+   86  docker run hello-world
+   87  docker --version
+   88  docker run hello-world
+   89  whoami
+   90  cd /
+   91  cd c/
+   92  pwd
+   93  ls
+   94  cd ~
+   95  ls
+   96  pwd
+   97  ls
+   98  cd mnt
+   99  cd /mnt
+  100  ls
+  101  cd c/GitLabPWN/
+  102  ls
+  103  cd njsts-libra-offers-api/
+  104  docker compose build
+  105  docker compose up api
+  106  docker compose build
+  107  docker ps -a
+  108  docker stop 45e5b9032984
+  109  docker ps -a
+  110  docker stop nostalgic_tesla
+  111  docker ps -a
+  112  docker container rm nostalgic_tesla
+  113  docker ps -a
+  114  npm install --global yarn
+  115  yarn ionstall
+  116  yarn install
+  117  yarn
+  118  yarn --version
+  119  npm install -g npm@10.8.0
+  120  yarn --version
+  121  yarn
+  122  node -v
+  123  sudo apt install nodejs
+  124  yarn --version
+  125  yarn install
+  126  docker compose up api
+  127  yarn
+  128  yarn install --network-timeout 1000000
+  129  yarn
+  130  ping onet.pl
+  131  ifconfig
+  132  sudo apt install nettools
+  133  sudo apt install net-tools
+  134  ifconfig
+  135  docker compose up api
+  136  curl -X GET http://localhost:3500
+  137  docker ps -a
+  138  curl -X GET http://localhost:3500
+  139  setterm -linewrap off
+  140  docker ps -a
+  141  setterm -linewrap on
+  142  docker ps -a
+  143  curl -X GET http://localhost:3500
+  144  netstat -tuln | grep 3500
+  145  docker ps
+  146  telnet localhost 3500
+  147  sudo apt install inetutils-telnet
+  148  telnet localhost 3500
+  149  netstat -tuln | grep 3500
+  150  telnet localhost 3500
+  151  ping 51.83.226.197
+  152  telnet 51.83.226.197 13000
+  153  docker-compose ps
+  154  docker ps
+  155  sudo apt-get update
+  156  sudo apt-get install docker-compose
+  157  docker-compose --version
+  158  docker ps
+  159  ifconfig
+  160  docker ps -a
+  161  cd njsts-libra-offers-api/
+  162  histoty
+  163  history
+  164  cd c/GitLabPWN/
+  165  cd c/
+  166  cd ~
+  167  cd /c
+  168  cd mnt/c
+  169  cd mnt
+  170  cd /mnt
+  171  cd c
+  172  cd c/GitLabPWN/
+  173  cd GitLabPWN/
+  174  docker ps -a
+  175  docker compose up api
+  176  docker delete hello-world
+  177  docker --help
+  178  ifconfig
+  179  docker compose up api
+  180  cd njsts-libra-offers-api/
+  181  docker compose up api
+  182  docker rm $(docker ps -a -q)
+  183  docker stop $(docker ps -q) && docker rm $(docker ps -a -q)
+  184  cd ~
+  185  pwd
+  186  cd /mnt/c/GitLabPWN/njsts-libra-offers-api
+  187  docker compose run --rm api bash
+  188  docker stop $(docker ps -q) && docker rm $(docker ps -a -q)
+  189  docker ps
+  190  docker compose up api
+  191  history
+  192  telnet 51.83.226.197 13000
+  193  docker ps
+  194  docker images ls
+  195  docker image ls
+  196  docker ps -a
+  197  history
+  198  telnet 51.83.226.197 13000~
+  199  telnet 51.83.226.197 13000
+  200  ping 51.83.226.197
+  201  docker ps
+  202  ping 51.83.226.197
+  203  telnet 51.83.226.197 13000
+  204  netstat -tuln
+  205  sudo lsof -i -P -n | grep LISTEN
+  206  docker ps
+  207  docker exec -it njsts-libra-offers-api-api-run-03ed26dd8ad9 curl http://localhost:3500
+  208  docker exec -it api curl http://localhost:3500
+  209  echo $PORT
+  210  docker-compose config
+  211  cd /mnt/c/GitLabPWN/njsts-libra-offers-api
+  212  docker-compose config
+  213  docker ps
+  214  sudo apt update
+  215  docker ps
+  216  docker ls
+  217  docker image
+  218  docker imags
+  219  docker images
+  220  docker ps
+  221  docker images
+  222  docker rm -f $(docker ps -aq) && docker rmi -f $(docker images -aq)
+  223  cd ..
+  224  history
+  225  history | grep "hi"
+  226  history | grep "gi"
+  227  git clone git@gitlab.pwn.net.pl:Libra/njsts-libra-offers-api.git
+  228  ls
+  229  git clone git@gitlab.pwn.net.pl:Libra/njsts-libra-offers-api.git .
+  230  git clone git@gitlab.pwn.net.pl:Libra/njsts-libra-offers-api.git
+  231  ls
+  232  git clone -f git@gitlab.pwn.net.pl:Libra/njsts-libra-offers-api.git
+  233  git clone -f git@gitlab.pwn.net.pl:Libra/njsts-libra-offers-api.git njsts-libra-offers-api
+  234  git clone git@gitlab.pwn.net.pl:Libra/njsts-libra-offers-api.git njsts-libra-offers-api
+  235  git clone git@gitlab.pwn.net.pl:Libra/njsts-libra-offers-api.git
+  236  ls
+  237  cd ..
+  238  ls
+  239  cd GitLabPWN/
+  240  git clone git@gitlab.pwn.net.pl:Libra/njsts-libra-offers-api.git
+  241  ls -a
+  242  git clone git@gitlab.pwn.net.pl:Libra/njsts-libra-offers-api.git dd
+  243  git clone git@gitlab.pwn.net.pl:Libra/njsts-libra-offers-api.git njsts-libra-offers-api
+  244  cd /mnt/c/GitLabPWN/njsts-libra-offers-api
+  245  docker stop $(docker ps -q) && docker rm $(docker ps -a -q)
+  246  docker ps
+  247  docker compose up api
+  248  docker compose run api
+  249  docker run api
+  250  docker compose run api
+  251  docker compose up api
+  252  docker compose run api 
+  253  docker compose run api -d
+  254  docker compose run
+  255  docker compose run api 
+  256  docker compose up api
+  257  docker compose down
+  258  docker compose up api
+  259  docker compose down
+  260  docker compose up api
+  261  docker compose build
+  262  docker compose down
+  263  docker compose build
+  264  yarn install
+  265  docker compose build
+  266  docker compose up api
+  267  history | grep cs
+  268  history | grep cd 
+  269  cd /mnt/c/GitLabPWN/njsts-libra-offers-api
+  270  cd ..
+  271  git clone git@gitlab.pwn.net.pl:Libra/njsts-libra-finder-api.git
+  272  cd ~
+  273  cd .ssh
+  274  ls
+  275  ls -a
+  276  pwd
+  277  cd ..
+  278  mkdir test
+  279  git clone git@gitlab.pwn.net.pl:Libra/njsts-libra-offers-api.git
+  280  history
+  281  cd /mnt/c/GitLabPWN/njsts-libra-offers-api
+  282  cd /mnt/c/GitLabPWN
+  283  git clone git@gitlab.pwn.net.pl:Libra/njsts-libra-offers-api.git
+  284  git clone https://gitlab.pwn.net.pl/Libra/njsts-libra-offers-api.git
+  285  cd /mnt/c/GitLabPWN/njsts-libra-offers-api
+  286  docker compose up api
+  287  docker compose run --rm api sh -c "yarn && yarn build"
+  288  docker compose up api
+  289  docker-compose down
+  290  docker-compose up --build
+  291  docker compose up api
+  292  docker images
+  293  docker ps
+  294  cd /mnt/c/GitLabPWN/njsts-libra-offers-api
+  295  cd /mnt/c/GitLabPWN
+  296  git clone git@gitlab.pwn.net.pl:Libra/njsts-libra-finder-api.git
+  297  docker ps
+  298  history
+  299  cd /mnt/c/GitLabPWN/njsts-libra-offers-api
+  300  docker stop $(docker ps -aq) && docker rm $(docker ps -aq) && docker rmi $(docker images -q)
+  301  docker compose logs -f api
+  302  docker stop $(docker ps -aq) && docker rm $(docker ps -aq) && docker rmi $(docker images -q)
+  303  docker ps
+  304  docker ls
+  305  docker ps
+  306  node -version
+  307  node --version
+  308  sudo apt get
+  309  docker ps
+  310  docker exec -it 02bf912023d6 /bin/bash
+  311  history
+  312  cd ..
+  313  git clone git@gitlab.pwn.net.pl:Libra/njsts-libra-finder-api.git
+  314  history
+  315  [wd
+  316  pwd
+  317  cd /mnt/c/GitLabPWN
+  318  history > history.txt
+  319  cd /mnt/c/WWW/PWN/
+  320  history > history.txt
